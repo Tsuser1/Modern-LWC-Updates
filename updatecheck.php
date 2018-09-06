@@ -42,8 +42,9 @@
 	}
 	
 	function badRequest(){
+		$jsonError = "{\"error\":{\"code\":400,\"severity\":\"FATAL\",\"message\":\"Bad Request.\"}}";
 		http_response_code(400);
-		echo("400. Bad Request.");
+		echo(($GLOBALS['prettyJSON']) ? prettifyJSON($jsonError) : $jsonError);
 		exit;
 	}
 	
