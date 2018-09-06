@@ -1,0 +1,17 @@
+{
+  "revision": 1,
+  "versions": [
+    {
+      "hash": "4973f98",
+      "name": "2.1.0",
+      "isSupported": true,
+      "isOutdated": false
+    },
+    {
+      "hash": "87d54f1", 
+      "name": "2.1.0-dev #31",
+      "isSupported": true,
+      "isOutdated": false
+    }
+  ]
+}
